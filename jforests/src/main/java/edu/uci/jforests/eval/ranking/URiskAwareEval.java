@@ -66,7 +66,7 @@ public class URiskAwareEval extends RankingEvaluationMetric {
 				System.err.println("Model in iteration "+iteration+" has peformance " + meanNDCG);
 				modelEval = nDCG;
 			}
-			System.err.println("Iteration " + iteration + " NDCG=" + Arrays.toString(nDCG));
+			// System.err.println("Iteration " + iteration + " NDCG=" + Arrays.toString(nDCG));
 		}
 		
 		@Override
